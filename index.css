@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #1d3557;
+}
+.box h1
+{
+    color: white;
+    text-transform: uppercase;
+}
+.box{
+    padding: 40px;
+    width: 300px;
+
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border-radius: 105px;
+    background: rgb(41, 54, 94);
+}
+.box input[id="1"],.box input[id ="2"]
+{
+    display: block;
+    margin: 20px auto;
+    background: none;
+    border-radius: 25px;
+    text-align: center;
+    border: 2px solid #00b4d8;
+    padding: 14px 10px;
+    width: 200px;
+    color: white;
+    outline: none;
+    transition: 0.2s;
+}
+.box input[id="3"]
+{
+    display: none;
+    margin: 20px auto;
+    background: none;
+    border-radius: 25px;
+    text-align: center;
+    border: 2px solid #00b4d8;
+    padding: 14px 10px;
+    width: 200px;
+    color: white;
+    outline: none;
+    transition: 0.2s;
+}
+.box input[id="1"]:focus,.box input[id="2"]:focus,.box input[id="3"]:focus
+{
+    width: 280px; 
+    border: 2px solid greenyellow;
+}
+.box button
+{
+    display: inline;
+    margin: 20px 20px;
+    background: none;
+    border-radius: 25px;
+    text-align: center;
+    border: 2px solid #00b4d8;
+    padding: 14px;
+    width: 90px;
+    color: white;
+    outline: none;
+    transition: 0.2s;  
+    cursor:pointer;
+}
+.box button:hover
+{
+    border: 2px solid greenyellow;
+   
+}
+.box button:active
+{
+    padding: 8px;
+    width: 70px;   
+}
